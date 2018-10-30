@@ -9,3 +9,6 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("#shoot").click(function(){
+    $("#userchoice").text($("#input").val());
+});
